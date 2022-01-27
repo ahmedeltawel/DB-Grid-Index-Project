@@ -1,0 +1,105 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Column",
+            "request": "launch",
+            "mainClass": "Column",
+            "projectName": "DB2Project"
+        },
+        {
+            "type": "java",
+            "name": "Launch helper",
+            "request": "launch",
+            "mainClass": "helper",
+            "projectName": "DB2Project"
+        },
+        {
+            "type": "java",
+            "name": "Launch gridIndex",
+            "request": "launch",
+            "mainClass": "gridIndex",
+            "projectName": "DB2Project"
+        },
+        {
+            "type": "java",
+            "name": "Launch doubleRanges",
+            "request": "launch",
+            "mainClass": "Table.doubleRanges",
+            "projectName": "DB2Project"
+        },
+        {
+            "type": "java",
+            "name": "Launch stringRanges",
+            "request": "launch",
+            "mainClass": "Table.stringRanges",
+            "projectName": "DB2Project"
+        },
+        {
+            "type": "java",
+            "name": "Launch query",
+            "request": "launch",
+            "mainClass": "query",
+            "projectName": "DB2Project"
+        },
+        {
+            "type": "java",
+            "name": "Launch gridIndex",
+            "request": "launch",
+            "mainClass": "Table.gridIndex",
+            "projectName": "DB2Project"
+        },
+        {
+            "type": "java",
+            "name": "Launch CArray",
+            "request": "launch",
+            "mainClass": "Table.CArray",
+            "projectName": "DB2Project"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch DBApp",
+            "request": "launch",
+            "mainClass": "DBApp",
+            "projectName": "DB2Project"
+        },
+        {
+            "type": "java",
+            "name": "Launch Page",
+            "request": "launch",
+            "mainClass": "Table.Page",
+            "projectName": "DB2Project"
+        },
+        {
+            "type": "java",
+            "name": "Launch Table",
+            "request": "launch",
+            "mainClass": "Table.Table",
+            "projectName": "DB2Project"
+        },
+        {
+            "type": "java",
+            "name": "Launch helper",
+            "request": "launch",
+            "mainClass": "Table.helper",
+            "projectName": "DB2Project"
+        },
+        {
+            "type": "java",
+            "name": "Launch test",
+            "request": "launch",
+            "mainClass": "test",
+            "projectName": "DB2Project"
+        }
+    ]
+}
