@@ -47,15 +47,30 @@ The following are examples of SQL statements that have been successfully tested 
 ## Code Example
 ```java
 db.parseSQL((new StringBuffer()).append("CREATE INDEX idx ON transcripts (gpa, student_id"));
+```
+
+## Dependencies
+
+The project relies on the following external libraries:
+
+- **jsqlparser**
+  - Version: 4.0
+  - Maven Dependency:
+    ```xml
+    <dependency>
+        <groupId>com.github.jsqlparser</groupId>
+        <artifactId>jsqlparser</artifactId>
+        <version>4.0</version>
+    </dependency>
     ```
 
-<dependency>
-    <groupId>com.github.jsqlparser</groupId>
-    <artifactId>jsqlparser</artifactId>
-    <version>4.0</version>
-</dependency>
-<dependency>
-    <groupId>com.github.skebir</groupId>
-    <artifactId>prettytable</artifactId>
-    <version>1.0</version>
-</dependency>
+- **prettytable**
+  - Version: 1.0
+  - Maven Dependency:
+    ```xml
+    <dependency>
+        <groupId>com.github.skebir</groupId>
+        <artifactId>prettytable</artifactId>
+        <version>1.0</version>
+    </dependency>
+    ```
